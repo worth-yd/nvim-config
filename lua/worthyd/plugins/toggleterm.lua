@@ -6,7 +6,7 @@ return {
 	config = function()
 		require("toggleterm").setup({
 			size = 20, -- Default size for non-floating terminals
-			open_mapping = [[<leader>to]], -- Key binding to toggle terminal (Ctrl + \)
+			open_mapping = [[<leader>te]], -- Key binding to toggle terminal (Ctrl + \)
 			hide_numbers = true, -- Hide line numbers in terminal
 			shade_terminals = true, -- Apply shading to terminals
 			start_in_insert = true, -- Start in insert mode when terminal opens
